@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{AEC5423D-BB82-EA77-6960-BE55AF0F612F}</ProjectGuid>
+	<ProjectGuid>{576509C7-89A5-9881-9FC2-B7B0E56C2241}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,8 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ZombieAnimator.cs" />
-     <Compile Include="Assets\ZombieController.cs" />
+     <Compile Include="Assets\BackgroundRepeater.cs" />
+     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CatController.cs" />
+     <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\ScreenRelativePosition.cs" />
+     <Compile Include="Assets\Scripts\ZombieAnimator.cs" />
+     <Compile Include="Assets\Scripts\ZombieController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
